@@ -188,7 +188,7 @@ const Page = ({ params }: { params: Promise<{ budgetId: string }> }) => {
                           onClick={() =>
                             handleDeleteTransaction(transaction.id)
                           }
-                          className="btn btn-sm"
+                          className="btn rounded-full btn-sm"
                         >
                           <Trash className="w-4" />
                         </button>
